@@ -3,4 +3,16 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
+<<<<<<< HEAD
 *.log 
+=======
+
+# Project specific
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Data files
+ragqa_arena_tech_examples.jsonl
+>>>>>>> 2d5eac6 (Resolved merge conflicts)
