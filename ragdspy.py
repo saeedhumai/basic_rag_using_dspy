@@ -8,6 +8,7 @@ load_dotenv()
 # Initialize OpenAI client with API key from environment variables
 openai_api_key = os.getenv('OPENAI_API_KEY')
 
+
 # Configure DSPy with OpenAI
 lm = LM(model_name="gpt-4", api_key=openai_api_key)
 dspy.configure(lm=lm)
